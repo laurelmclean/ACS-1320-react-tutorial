@@ -7,3 +7,9 @@
   width: 100%;
   height: auto;
 }
+
+.hours {
+    color: grey;
+    padding-top: 10px;
+    font-style: italic;
+}
