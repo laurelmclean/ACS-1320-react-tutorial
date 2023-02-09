@@ -2,9 +2,11 @@ import React from 'react'
 import './Footer.css'
 
 function Footer() {
+    let dateObj = new Date();
   return (
     <div className="Footer">
-        <p>Laurel McLean Copyright 2023</p>
+        {/* stretch challenge - JS object for date */}
+        <p>Laurel McLean - Copyright {dateObj.getFullYear()}</p>
     </div>
   )
 }
