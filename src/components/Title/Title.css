@@ -6,7 +6,7 @@
   align-items: baseline;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: rgb(192, 45, 26);
+  background-color: #1d3b0e;
   color: #fff;
 }
 
@@ -25,4 +25,8 @@
 .Title .nav-link-active {
   color: #fff;
   border-bottom: 2px solid;
+}
+
+.nav-link {
+  margin: 12px;
 }

@@ -22,25 +22,38 @@
 	}
 }
 
-.POPOSList form {
+.POPOSSearch form {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
+  margin: 0em 10em;
 }
 
-.POPOSList form input, .POPOSList form button {
-	padding: 1em;
+.POPOSSearch form input, .POPOSSearch form button {
+	padding: 14px;
 	margin: 0;
 	border: 1px solid;
+  border-color: #041c36;
 	font-size: 1rem;
 }
 
-.POPOSList form input {
+.POPOSSearch form input {
 	flex: 1;
-	border-top-left-radius: 0.5em;
-	border-bottom-left-radius: 0.5em;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 }
 
-.POPOSList form button {
-	border-top-right-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
+.POPOSSearch form button {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+  background: #041c36;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #041c36;
+}
+
+.POPOSSearch form button:hover {
+    background: white;
+    color: #041c36;
+    cursor: pointer;
 }

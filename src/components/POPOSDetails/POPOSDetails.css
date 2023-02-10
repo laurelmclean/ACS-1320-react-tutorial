@@ -22,6 +22,7 @@
 
 .POPOSDetails .POPOSDetails-image img {
 	width: 100%;
+    padding-bottom: 40px;
 }
 
 .POPOSDetails .POPOSDetails-hours {
