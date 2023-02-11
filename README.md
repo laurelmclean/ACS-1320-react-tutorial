@@ -9,5 +9,7 @@ In the project directory, you can run:
 
 ## Screenshots
 
+![Homepage](/homepage.png)
 
+![Details Page](/detailspage.png)
 
