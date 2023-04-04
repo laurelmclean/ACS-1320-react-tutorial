@@ -75,10 +75,6 @@ A tutorial creating a React app of POPOS spaces in San Francisco, which provided
 
 View wireframes on Figma: https://www.figma.com/file/pN7gF9YOoYX2gllN8JgYI1/SFPOPOS?node-id=0%3A1&t=5cdmf23qRVQq2tLH-1
 
-![Wireframe1](/wireframes1.png)
-
-![Wireframe2](/wireframes2.png)
-
 ## Run Locally
 
 In the project directory, you can run:

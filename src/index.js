@@ -6,6 +6,7 @@ import App from './components/App';
 import POPOSList from './components//POPOSList/POPOSList';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
 import About from './components/About/About';
+import Register from './components/Register/Register';
 import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -20,6 +21,7 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/register" element={<Register />} />
       </Route>
     </Routes>
   </Router>,

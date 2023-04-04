@@ -27,15 +27,17 @@ function POPOSList() {
 })
 
   return (
+    <div>
     <div className="POPOSSearch">
-      <form>
-        <input
-          value={query}
-          placeholder="search"
-          onChange={(evt) => setQuery(evt.target.value)}
-        />
-        <button type="submit">Submit</button>
-      </form>
+        <form>
+          <input
+            value={query}
+            placeholder="search"
+            onChange={(evt) => setQuery(evt.target.value)}
+          />
+          <button type="submit">Submit</button>
+        </form>
+        </div>
       <div className="POPOSList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
       </div>
