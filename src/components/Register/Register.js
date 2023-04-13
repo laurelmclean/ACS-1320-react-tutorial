@@ -36,7 +36,7 @@ function Register() {
                         placeholder="Enter your email address"
                     />
                 </div>
-                <div className='Checkbox'>
+                <div className='Checkbox-text'>
                     <input type="checkbox" />
                     <p>By signing up you agree to receive personalized marketing material from SFPOPOS in accordance with our privacy policy.</p>
                 </div>

@@ -1,6 +1,8 @@
+
 .Register form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -34,7 +36,7 @@ textarea {
 
 }
 
-.Register form input {
+.form-group input {
     border-radius: 20px;
     min-width: 500px;
 }
@@ -55,9 +57,47 @@ textarea {
     cursor: pointer;
 }
 
-.Checkbox {
-    display: flex;
-    align-items: center;
+.Checkbox-text {
+    padding-bottom: 2rem;;
+}
+
+.Checkbox-text input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.Checkbox-text p {
+    display: inline-block;
+    vertical-align: middle;
     margin: 0;
-    padding: 0;
+}
+
+/* Smaller screens and tablets */
+/* stretch challenge */
+@media only screen and (max-width: 820px){
+
+    .Register {
+        max-width: 100%;
+        margin: 2rem;
+    }
+
+    .form-group input {
+        border-radius: 20px;
+        min-width: 400px;
+    }
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 480px) {
+
+    .Register {
+        max-width: 100%;
+        margin: 2rem;
+    }
+
+    .form-group input {
+        border-radius: 20px;
+        min-width: 200px;
+    }
 }

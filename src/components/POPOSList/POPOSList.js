@@ -32,7 +32,7 @@ function POPOSList() {
         <form>
           <input
             value={query}
-            placeholder="search"
+            placeholder="search space or address"
             onChange={(evt) => setQuery(evt.target.value)}
           />
           <button type="submit">Submit</button>

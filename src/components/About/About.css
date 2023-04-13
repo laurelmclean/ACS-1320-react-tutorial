@@ -20,4 +20,41 @@
 	padding-bottom: 40px;
 }
 
+/* Smaller screens and tablets */
+/* stretch challenge */
+@media only screen and (max-width: 820px) {
+	.About {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
 
+	.About .About-info {
+		padding-bottom: 4em;
+	}
+/* stretch challenge */
+	img {
+		max-width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 480px) {
+	.About {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.About .About-info {
+		padding-bottom: 4em;
+	}
+/* stretch challenge */
+	img {
+		max-width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+}

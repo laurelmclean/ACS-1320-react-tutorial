@@ -7,7 +7,7 @@ function POPOSSpace(props) {
   return (
     <div className="POPOSSpace">
       <Link className="POPOSSpace-title" to={`/details/${id}`}>
-        <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt="Hello" />
+        <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt={name} />
       </Link>
       <h1>
         <Link to={`/details/${id}`}>
@@ -16,6 +16,7 @@ function POPOSSpace(props) {
       </h1>
      <div className="POPOSSpace-info">
 				<div >{address}</div>
+        <br />
 				<div>{hours}</div>
 			</div>
      </div>

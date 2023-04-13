@@ -86,7 +86,20 @@ https://laurelmclean.github.io/ACS-1320-react-tutorial/#/
 
 ## Screenshots
 
+### Desktop
+
 ![Homepage](/homepage.png)
 
 ![Details Page](/detailspage.png)
 
+![Register Page](/register.png)
+
+### Mobile
+
+![Homepage Mobile](/homemobile.png)
+
+![Details Mobile](/mobiledetails.png)
+
+![Details Mobile](/mobiledetails2.png)
+
+![Register Mobile](/registermobile.png)

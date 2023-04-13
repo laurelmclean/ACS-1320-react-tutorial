@@ -6,8 +6,10 @@ import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
-      <Title />
-      <Outlet />
+      <div className='App-content'>
+        <Title />
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
