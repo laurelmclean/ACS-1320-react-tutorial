@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ACS-1320-react-tutorial/static/css/main.6318a367.css",
-    "main.js": "/ACS-1320-react-tutorial/static/js/main.53f8565f.js",
+    "main.css": "/ACS-1320-react-tutorial/static/css/main.5b125a9f.css",
+    "main.js": "/ACS-1320-react-tutorial/static/js/main.dc2a044f.js",
     "static/js/787.7d6d6079.chunk.js": "/ACS-1320-react-tutorial/static/js/787.7d6d6079.chunk.js",
     "index.html": "/ACS-1320-react-tutorial/index.html",
-    "main.6318a367.css.map": "/ACS-1320-react-tutorial/static/css/main.6318a367.css.map",
-    "main.53f8565f.js.map": "/ACS-1320-react-tutorial/static/js/main.53f8565f.js.map",
+    "main.5b125a9f.css.map": "/ACS-1320-react-tutorial/static/css/main.5b125a9f.css.map",
+    "main.dc2a044f.js.map": "/ACS-1320-react-tutorial/static/js/main.dc2a044f.js.map",
     "787.7d6d6079.chunk.js.map": "/ACS-1320-react-tutorial/static/js/787.7d6d6079.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6318a367.css",
-    "static/js/main.53f8565f.js"
+    "static/css/main.5b125a9f.css",
+    "static/js/main.dc2a044f.js"
   ]
 }
