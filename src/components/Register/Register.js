@@ -16,7 +16,6 @@ function Register() {
                         id="firstName"
                         name="firstName"
                         placeholder="Enter your first name"
-                        aria-describedby="first-name"
                     />
                 </div>
                 <div className="form-group">
@@ -26,7 +25,6 @@ function Register() {
                         id="lastName"
                         name="lastName"
                         placeholder="Enter your last name"
-                        aria-describedby="last-name"
                     />
                 </div>
                 <div className="form-group">
@@ -36,7 +34,6 @@ function Register() {
                         id="email"
                         name="email"
                         placeholder="Enter your email address"
-                        aria-describedby="email"
                     />
                 </div>
                 <div className='Checkbox-text'>
