@@ -1,17 +1,18 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 import './RandomSpace.css';
-import data from '../../sfpopos-data.json'
+import data from '../../sfpopos-data.json';
 
 function RandomSpace() {
-	const navigate = useNavigate()
-  return (
-		<button 
-    className="RandomSpace"
-    onClick={(e) => {
-			const id = Math.floor(Math.random() * data.length)
-			navigate(`/details/${id}`)
-		}}>Random Space</button>
-  )
-}
+	const navigate = useNavigate();
+	return (
+		<button
+			className="RandomSpace"
+			aria-label="Submit search"
+			onClick={(e) => {
+				const id = Math.floor(Math.random() * data.length)
+				navigate(`/details/${id}`)
+			}}>Random Space</button>
+	)
+};
 
-export default RandomSpace
+export default RandomSpace;

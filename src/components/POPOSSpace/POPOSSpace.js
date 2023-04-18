@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import './POPOSSpace.css';
 
 function POPOSSpace(props) {
-  const { name, image, address, hours, id } = props
+  const { name, image, address, hours, id } = props;
   return (
-    <div className="POPOSSpace">
+    <article className="POPOSSpace">
       <Link className="POPOSSpace-title" to={`/details/${id}`}>
         <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="300" alt={name} />
       </Link>
@@ -14,13 +14,13 @@ function POPOSSpace(props) {
             {name}
         </Link>
       </h1>
-     <div className="POPOSSpace-info">
-				<div >{address}</div>
+     <section className="POPOSSpace-info">
+				<address >{address}</address>
         <br />
-				<div>{hours}</div>
-			</div>
-     </div>
+				<time>{hours}</time>
+      </section>
+     </article>
   )
-}
+};
 
-export default POPOSSpace
+export default POPOSSpace;

@@ -1,5 +1,5 @@
-import React from 'react'
-import './POPOSFeature.css'
+import React from 'react';
+import './POPOSFeature.css';
 
 function getFeature(str) {
 	switch(str) {
@@ -16,11 +16,11 @@ function getFeature(str) {
 		default:
 			return '？'
 	}
-}
+};
 
 function POPOSFeature(props) {
-	const emoji = getFeature(props.name)
-	return <div className="POPOSFeature">{emoji}</div>
+	const emoji = getFeature(props.name);
+	return <figure className="POPOSFeature" aria-label={props.name}>{emoji}</figure>
 }
 
-export default POPOSFeature
+export default POPOSFeature;

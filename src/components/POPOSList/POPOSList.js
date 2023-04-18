@@ -5,7 +5,7 @@ import data from '../../sfpopos-data.js'
 import { useState } from 'react'
 
 function POPOSList() {
-  const [ query, setQuery ] = useState('')
+  const [ query, setQuery ] = useState('');
   const spaces = data.filter((obj) => {
 	// true if query is in title
 	const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
@@ -24,25 +24,26 @@ function POPOSList() {
       hours={hours}
     />
   )
-})
+});
 
   return (
-    <div>
-    <div className="POPOSSearch">
+    <article>
+    <section className="POPOSSearch">
         <form>
           <input
             value={query}
-            placeholder="search space or address"
+            placeholder="search title or address"
             onChange={(evt) => setQuery(evt.target.value)}
+            aria-label="Search by title or address"
           />
-          <button type="submit">Submit</button>
+          <button type="submit" aria-label="Submit search">Submit</button>
         </form>
-        </div>
-      <div className="POPOSList">
+        </section>
+      <section className="POPOSList">
         { spaces.length > 0 ? spaces : "No results match your search" } 
-      </div>
-    </div>
+      </section>
+    </article>
   )
-}
+};
 
-export default POPOSList
+export default POPOSList;
